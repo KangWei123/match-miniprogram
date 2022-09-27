@@ -1,0 +1,7 @@
+<!--轮播图-->
+<view class="matchHall">
+<my-swiper class="my_swiper" imgUrls="{{imgUrls}}"></my-swiper>
+<scroll-view class="scroll_view"	scroll-y>
+  <match-list wx:for="{{matchList}}" wx:key="matchImage" item="{{item}}"></match-list>
+</scroll-view>
+</view>

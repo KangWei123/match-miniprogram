@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "比赛大厅",
+  "usingComponents": {
+    "match-list": "../components/matchList/index"
+  }
+}

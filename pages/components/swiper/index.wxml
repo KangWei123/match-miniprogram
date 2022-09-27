@@ -1,0 +1,10 @@
+<!--轮播图-->
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{500}}" indicator-color="white" indicator-active-color="coral">
+  <block wx:for="{{imgUrls}}" wx:key="url">
+    <swiper-item>
+      <navigator url="{{item.link}}" hover-class="navigator-hover">
+        <image src="{{item.url}}" class="swiper_image"/>
+      </navigator>
+    </swiper-item>
+  </block>
+</swiper>

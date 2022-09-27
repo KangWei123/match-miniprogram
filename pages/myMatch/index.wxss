@@ -1,0 +1,51 @@
+.matchHall{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248,248,250);
+  
+}
+.my_info{
+  box-sizing: border-box;
+  border-top: 1rpx #eee solid;
+  display: flex;
+  margin-bottom: 20rpx;
+  background: white;
+  padding: 24rpx 20rpx;
+  /* height: 160rpx; */
+  align-items: center;
+  border-radius: 0 0 20rpx  20rpx ;
+}
+.my_info .my_avatar{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 100%;
+  margin-right: 10px;
+ /* background-color: sandybrown; */
+  /* 310rpx */
+}
+.name{
+  font-weight: bold;
+  /* font-size: 30rpx; */
+}
+.my_info_txt{
+  font-size: 26rpx;
+  display: flex;
+  /* gap: 12rpx; */
+  margin-left: auto;
+}
+.my_info_txt .txt{
+  color: #aaa;
+}
+.my_info_txt .num{
+  color: #d81e06;
+  margin-right: 8rpx;
+}
+
+.scroll_view{
+  background-color: white;
+  border-radius: 20rpx 20rpx 0 0;
+  margin-top: 6rpx;
+  height: calc(100vh - 160rpx - 20rpx);
+
+}

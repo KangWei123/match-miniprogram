@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "比赛大厅",
+  "usingComponents": {
+    "my-swiper": "../components/swiper/index",
+    "match-list": "../components/matchList/index"
+  }
+}

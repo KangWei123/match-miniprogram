@@ -1,0 +1,26 @@
+<!--轮播图-->
+<view class="match_list">
+  <!-- 列表 -->
+  <image class="match_image" src="{{item.matchImage}}"></image>
+  <view class="match_content">
+    <!-- title -->
+    <view class="match_content_title">
+      <view class="status">{{item.matchStatus}}</view>
+      <view class="title">{{item.matchTitle}}</view>
+    </view>
+    <!-- time -->
+    <view class="match_content_time">
+      <image src="../../../assets/images/time.svg" class="icon">
+      </image>
+      <view class="time">{{item.matchTime}}</view>
+    </view>
+    <view class="match_content_num">
+      {{item.matchNum}}
+    <view class="desc">人参赛</view>
+    </view>
+  </view>
+  <view class="match_status">
+    <image src="../../../assets/images/勋章.svg" class="match_status_image"></image>
+    <view class="match_status_txt">{{item.signUpStatus}}</view>
+  </view>
+</view>

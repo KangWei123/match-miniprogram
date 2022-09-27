@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/matchHall/index",
+    "pages/ranking/index",
+    "pages/myMatch/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "custom": false,
+    "color": "#7A7E83",
+    "selectedColor": "#000000",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "assets/images/tabbar/home.png",
+        "selectedIconPath": "assets/images/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/matchHall/index",
+        "text": "比赛大厅",
+        "iconPath": "assets/images/tabbar/matchHall.png",
+        "selectedIconPath": "assets/images/tabbar/matchHall_active.png"
+      },
+      {
+        "pagePath": "pages/ranking/index",
+        "text": "排行榜",
+        "iconPath": "assets/images/tabbar/ranking.png",
+        "selectedIconPath": "assets/images/tabbar/ranking_active.png"
+      },
+      {
+        "pagePath": "pages/myMatch/index",
+        "text": "我的比赛",
+        "iconPath": "assets/images/tabbar/myMatch.png",
+        "selectedIconPath": "assets/images/tabbar/myMatch_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,16 @@
+<!--轮播图-->
+<view class="matchHall">
+<view class="my_info">
+  <image src="../../assets/images/avatar.png" class="my_avatar"></image>
+  <view class="name">小迪889900</view>
+  <view class="my_info_txt">
+    <view class="txt">我已参加：</view>
+    <view class="num">9</view>
+    <view class="unit">场</view>
+  </view>
+</view>
+
+<scroll-view class="scroll_view"	scroll-y>
+  <match-list wx:for="{{matchList}}" wx:key="matchImage" item="{{item}}"></match-list>
+</scroll-view>
+</view>
